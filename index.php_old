@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Demo</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script src="JavaScript/JSscript.js"></script>  <!-- Set Menu height = Main height (option) -->
+</head>
+<body>
+    <div id="header">
+        Header
+        <marquee behavior="" direction="left" scrolldelay="200">This is my first website</marquee>
+    </div>
+    
+    <div id="menu">
+        <p class="menulist"><a href=".">Home</a></p>
+        <p class="menulist"><a href="index.php?page=intro">Intro</a></p>
+        <p class="menulist"><a href="index.php?page=product">Product</a></p>
+        <p class="menulist">Help</p>
+        <p class="menulist">Menu...</p>
+    </div>
+    
+    <div id="main">
+        <?php
+            if(isset($_GET['page'])){
+                if($_GET['page'] === "intro")
+                    require_once "Introduction.html";
+                else if($_GET['page'] === "product")
+                    require_once "Product.php";
+                else
+                    require_once "Introduction.html";
+            }
+        ?>
+    </div>
+    
+    <div id="footer">
+        <p>Footer</p>
+        &#169; copyright TrietNM 2022
+    </div>
+
+</body>
+</html>
