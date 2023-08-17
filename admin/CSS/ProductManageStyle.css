@@ -1,0 +1,153 @@
+body{
+    font-family: 'Tahoma';
+    font-weight: normal;
+}
+
+table#AddProductTable{
+    margin: auto;
+    background-color: beige;
+    width: 55%;
+    padding: 0.5%;
+    border-radius: 1%;
+}
+
+th#AddProductTH{
+    background-color: bisque;
+    font-size: large;
+    color: blue;
+}
+
+tr#btnRow{
+    text-align: center;
+}
+
+input.btn{
+    color: blue;
+    margin-top: 2%;
+}
+
+table#tblListProduct{
+    margin: auto;
+    width: 90%;
+    font-family: 'Tahoma';
+    font-weight: normal;
+    border-collapse: collapse;
+    border-color:darkgray;
+}
+
+tr#ListProductTitle{
+    font-size: large;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+div#pagination{
+    text-align: right;
+    margin-right: 10%;
+}
+
+div#header{
+    background-color: blueviolet;
+}
+
+div#menu{
+    background-color:brown;
+    width: 25%;
+    margin: 0 2.5%;
+    float: left;
+}
+
+div#main{
+    background-color: bisque;
+    width: 67.5%;
+    margin: 0 2.5% 0 0;
+    float: left;
+}
+
+div#footer{
+    clear: left;
+    background-color: cadetblue;
+}
+
+p.menulist{
+    background-color:blue;
+    font-weight: bold;
+    margin: 1% 9%;
+    color: chartreuse;
+}
+
+p#title{
+    font-weight: bold;
+    font-size:large;
+    text-align: center;
+}
+
+p#abtract{
+    font-style: italic;
+    text-align: justify;
+    padding: 0 5%;
+}
+
+p{
+    padding: 0 5%;
+    text-align: justify;
+}
+
+img{
+    width: 50%;
+    margin: 1% 5%;
+}
+
+a{
+    color:burlywood;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+table#tbLogin{
+    margin: auto;
+    background-color: beige;
+    width: 30%;
+    padding: 0.5%;
+    border-radius: 1%;
+}
+
+tr#trLogin{
+    text-align: center;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    background-color: bisque;
+}
+
+td#btnLogin{
+    text-align: center;
+    padding-top: 2%;
+}
+
+div#log{
+    text-align: right;
+}
+
+div#adminMenu{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+div#adminContent{
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+button{
+    color: blue;
+}
+
+td.center{
+    text-align: center;
+}
